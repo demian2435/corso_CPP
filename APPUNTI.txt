@@ -1,0 +1,90 @@
+string s=to_string (v)//trasforma in stringa v
+
+replace(s.begin(),s.end(),'.','+')//#include <alghoritm> trasforma . in +//dentro s da begin fino a fine string
+
+new char[100]= chiediamo spazio per un BLOCCO UNICO di char di 100 bite
+
+fstream f("APPUNTI.txt");=aggiungere file da leggere
+
+da while si esce o completata la funzione in testa () o con break
+
+int a=stoi(nomeStringa)=string to int
+
+char cUp=toupper(c); = il carattere dela variabile c sara reso Maiuscolo
+
+isalpha(cUp)=domanda se ? un carattere dell'alfabeto
+
+vocali.find(cUp)=cerca nella stringa vocali se ? presente il carettere della variabile cUp
+
+npos= ? il valore di risposta a quando non viene trovato nulla ad una richiesta
+
+swap(a,b)=scambia i valori tra a e b
+
+tutte le funzioni vanno fuori dal main
+
+const= costante quindi divemta immodificabile;
+
+&n1=se cout stampa dove ? nella ram, se chiamato in una funzione significa che la funzione pu? mdificarlo, poich? va a prendere l'indirizzo reale sulla RAM, senza & invece copia il valore lo lavora e poi lo retituisce (AMPLIFICANDO IL TEMPO DI ESECUZIONE) "string& a"
+
+srand(time(o))= rende il comndo rand() casuale al 100% #include <cstdlib> ctime?
+
+rand()%N+1=dove N ? il massimo numero etrattto 1-N
+rand()(massimo-minimo+1)+minimo=rand minimo-massimo come range
+
+for (int i=0; i<100;i++)=i ha valore solo nel ciclo for
+
+++i =viene aggiunto 1 e poi usata (--i)
+i++= viene usato 0 e poi aggiunto 1 (i--)
+
+string [] {gino, mario,michele}
+
+&&= and
+
+||=or
+
+switch (DATO DA COMPARARE)
+{case 1: cout<<"Hai rsposto 1";break;
+default(tutto ci? che non ? 1):cout<<"Sei scemo";break;}=classico esempio ciclo switch
+
+int main () {} = la base del programma (MAIN) il corpo del progetto (Mario)
+
+3<<1 = shift a sinistra del bit; esempio; 00000011 questo ? il 3 binario se shifto a sinistra di 1 verr? fuori 00000110 cio? 6
+
+#include <iostream> = libreria base del IN-OUT-STREAM da Console a CPU e da CPU a console (>> IN - << OUT); # = Pre-processore; <> per chiamare librerie standard; "" per le nostre librerie
+
+std::cout = std sta per standard e cio? la libreria che contiene il comando cout (cio? stampa "console-out", fai uscire dalla cpu)
+
+usig namespace std; = (sotto define) obbliga il pc ad usare la libreria Standard per tutti i comandi che andremo ad utilizzare (SUICIDIO?)
+
+using std::cout; = obbliga il pc ad usare il count con std davanti cos? da evitare di scriverlo (messo all'interno del MAIN vale solo per il main
+
+boolean = true 1 (oppure tutti i numeri non 0) - false 0
+
+?BUILT-IN (librerie predefinite) (Mario)
+
+TIPI ARITMETICI = INTEGRALI bool (booleano) - char (caratteri) - int (numeri interi); FLOATING POINT float (con la virgola, negativi etc) - double (stessa cosa ma per numeri pi? grandi); VOID roba matta
+
+PUNTATORI
+
+REFERENCE
+
+ARRAY = elenconomi [rossi,verdi,bianchi] - elenconomi[2] -> verdi
+
+?DEFINITI UTENTE (librerie proprie)
+
+STRUCT (Mario)(Mario)
+
+CLASSI = esempio l'et? delle persone dentro un elenco
+
+ENUMERAZIONI = gestire un elenco con dei nomi, tipo il luned? sar? 1, il marted? il 2 etc.. oppure con i colori RGB..
+
+I linguaggi servono a semplificare il parlare con la macchina, che percepisce solo 0 e 1 (cio? linguaggio binario), si utilizzano linguaggi dove sono stati salvati in precedenza dei comandi in una tabbella dove la macchina quando legge esempio COUT invier? 01001001001110011 alla macchina che stamper? sullo schermo.. scrivere in binario sarebbe il massimo poich? scriveremmo la stesa lingua della macchina ma ci? sarebbe molto difficoltoso quindi ultilizziamo dei linguaggi per semplificarci la vita, ma pi? sono lontani dalla macchina pi? lento sar? il processo, l'ASSEMBLY ? il primo traduttore inventato, puoi gestire la CPU in maniera perfetta (LINGUAGGIO A BASSO LIVELLO - cio? vicinissimo alla macchina) o usare un linguaggio ad alto livello esempio c++ che tra i linguaggi ad "alto livello" ? il pi? vicino alla macchina e quindi efficente..
+
+RICORDA un INT lunghezza minima sono 16 bit di un LONG 32 bit
+
+0377 numero ottale = 255 (cifra pi? grande 7 {che in bit si scrive 111}- 0 sta per ottale - 3 sarebbe 8x8+8x8+8x8 - 7 sarebbe 8x7 - 7 sarebbe 7
+0xFF numero esadecimale = 255 (cifra pi? grande 15 {che in bit si scrive 1111}- 0x sta per esadecimale - F sarebbe 15x16 - F sarebbe 15(8,9,A=10,B=11,C=12,D=13,E=14,F=15))
+255 numero decimale = 255 (Mario)
+0b110000 numero binario = 48
+
+4000U = usa numeri UNSIGNED se sei certo che non userai mani numeri con segni (meno, virgole etc) far? risparmiare tempo sopratutto su cicli lunghi

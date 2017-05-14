@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1488973902 source:c:\users\bruno\documents\corso c++ professionale\108_classe_data\data.cpp
+	"data.h"
+
+1488940629 c:\users\bruno\documents\corso c++ professionale\108_classe_data\data.h
+	<string>
+	<ctime>
+
+1488974442 source:c:\users\bruno\documents\corso c++ professionale\108_classe_data\main.cpp
+	<iostream>
+	"data.h"
+

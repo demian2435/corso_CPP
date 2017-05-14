@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1482531630 source:c:\documents and settings\aaa\desktop\ingegneria informatica\corso c++ professionale\file_stream\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1482237634 source:c:\users\bruno\documents\corso c++ professionale\file_stream\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

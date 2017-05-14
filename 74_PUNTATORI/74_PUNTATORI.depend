@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1482934860 source:c:\users\bruno\documents\corso c++ professionale\74_puntatori\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	<cstdlib>
+

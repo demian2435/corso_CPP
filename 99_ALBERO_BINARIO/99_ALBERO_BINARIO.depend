@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1486911218 source:c:\users\bruno\documents\corso c++ professionale\99_albero_binario\main.cpp
+	<iostream>
+	<time.h>
+	<cstdlib>
+

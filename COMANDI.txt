@@ -1,0 +1,36 @@
+std::cout << ; = stampa i dati di una varibile
+cout << "parole"; forma testo
+cout << parole; forma variabile
+cout << 5; forma numero
+
+std::cin >> ;= immette dati dentro una variabile
+cin >> euro; immette da utente dentro euro
+
+std::endl; = end line cioè accapo
+
+int euro = 0; crea una variabile e dagli sempre un valore (altrimenti è casuale)
+
+/* commento */ = commento completo anche con cambio di rigo
+
+// = commento classico massimo una riga
+
+std::cout << sizeof(int); = ti dice quanti byte usa per quella funzione, in questo caso int
+
+INT_MAX = variabile costante inmodificabile 2147483647 è il numero massimo raggiungbile dalla sequenza di 32 bit (4 byte), se aggiungiamo +1 finiamo in negativo poichè andremmo in OVERFLOW;
+
+int euro {309090}; = usa lista variabili per tenere sotto controllo i dati per non andare in OVERFLOW in inizializzazione
+
+if(condizione){risposta} seguito da ELSE {risposta se IF è falso}= condzione SE altrimenti else
+
+!bruno = negazione, se non è Bruno
+
+"\n CIAO" = manderà accapo prima di CIAO (Valido solo su stringhe di testo)
+
+== significa uguale a..
+
+? (condizionale) = eta=19; (eta>=18 ? "VERO if" : "FALSO else"); 
+
+&& = AND cioè che entrambi i fattori sono veri
+|| = OR almeno uno dei due fattori è vero
+
+string VOX = "GINO" variabile con nome

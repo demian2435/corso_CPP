@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1483130736 source:c:\users\bruno\documents\corso c++ professionale\ordine\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

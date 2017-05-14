@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1482459033 source:c:\users\bruno\documents\corso c++ professionale\esercizi_camuso\main.cpp
+	<iostream>
+	<math.h>
+

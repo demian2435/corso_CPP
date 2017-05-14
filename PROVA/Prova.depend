@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1481531368 source:c:\users\bruno\desktop\corso c++ professionale\prova\prova\main.cpp
+
+1481536328 source:c:\users\bruno\documents\corso c++ professionale\prova\prova\main.cpp
+	<iostream>
+
+1484642048 source:c:\users\bruno\documents\corso c++ professionale\prova\main.cpp
+	<iostream>
+	<limits>
+	<string>
+	<sstream>
+	<cstdlib>
+	<ctime>
+
+1482533084 source:c:\documents and settings\aaa\desktop\ingegneria informatica\corso c++ professionale\prova\main.cpp
+	<iostream>
+	<limits>
+	<string>
+	<sstream>
+

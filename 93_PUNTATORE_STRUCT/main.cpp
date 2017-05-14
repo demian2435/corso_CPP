@@ -1,0 +1,50 @@
+#include <iostream>
+
+using namespace std;
+
+//CREA LA STRUCT PUNTO3D E DEFINISCE LE VARIABILI CHE LA CONTIENE P3D=X,Y,Z
+struct P3D
+{
+    long double x, y, z;
+};
+
+//CREA UNA STRUCT TRIANGOLO CHE CONTIRNR A SUA VOLTA 3 PUNTATORI CHE PUNTANO A 3 PUNTI3D CHE A LORO VOLTA SONO COMPOSTI DA X,Y,Z
+struct triangolo
+{
+    P3D *a,*b,*c;
+};
+
+//FUNZIONE CHE CALCOLA IL VALORE MEDIO TRA 2 PUNTI3D, RICEVE DEI PUNTATORI E CREA UNA VARIABILE MA NE RITORNA SOLO L'INDIRIZZO PER ALLEGERIRE IL CODICE
+P3D *Pmedio3D (const P3D *a,const P3D *b)
+{
+    long double x = (a->x + b->x)/2;
+    long double y = (a->y + b->y)/2;
+    long double z = (a->z + b->z)/2;
+
+    return new P3D {x,y,z};
+}
+
+int main()
+{
+    //INIZIALIZIAMO DUE VARIABILI P3D DEFINITE NELLA STRUCT (X,Y,Z)
+    P3D *a = new P3D {2,2,2};
+    P3D *b = new P3D {4,4,4};
+
+    //MANDIAMO LE DUE VARIABILI DENTRO LA FUNZIONE DI CALCOLO PUNTOMEDIO, LA VARIABILE DI SALVATAGGIO DEVE ESSERE UN PUNTATORE POICHE LA FUNZIONE RESTITUISCE UN PUNTATORE
+    P3D *medio = Pmedio3D(a,b);
+
+    //STAMPIAMO IL CALCOLO APPENA EFFETTUATO DALLA FUNZIONE, IN QUANTO PUNTATORE DOBBIAMO INDICARE CON LA FRECCIA IL VALORE ALL'INTERNO DEL PUNTATORE MEDIO->X..
+    cout<<medio->x<<endl<<medio->y<<endl<<medio->z<<endl<<endl;
+
+    //INIZIALIZZIAMO UN OGGETTO TRIANGOLO, CHE CONTIENE 3 PUNTI3D
+    triangolo *UNO= new triangolo {new P3D {2,2,2},new P3D {4,4,4},new P3D{6,6,6}};
+
+    //STAMPIAMO I PUNTI DEL PUNTO3D ALL'INTERNO DELL'OGGETTO TRIANGOLO, TRIANGOLO->IL PUNTO3D A->LA SUA X
+    cout<<UNO->a->x<<endl<<UNO->a->y<<endl<<UNO->a->z<<endl<<endl;
+
+    //MANDIAMO I DUE PUNTI3D A E B DEL TRINAGOLO DENTRO LA FUNZIONE PUNTO MEDIO
+    P3D *medio_triangolo= Pmedio3D(UNO->a,UNO->b);
+
+    //STAMPIAMO IL RISULTATO DELLA FUNZIONE
+    cout<<medio_triangolo->x<<endl<<medio_triangolo->y<<endl<<medio_triangolo->z;
+}

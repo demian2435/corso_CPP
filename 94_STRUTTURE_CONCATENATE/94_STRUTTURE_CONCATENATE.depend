@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1486898319 source:c:\users\bruno\documents\corso c++ professionale\94_strutture_concatenate\main.cpp
+	<iostream>
+	<sys/time.h>
+
